@@ -12,10 +12,10 @@ let package = Package(
     name: "Gtk",
     products: [ .library(name: "Gtk", targets: ["Gtk"]) ],
     dependencies: [
-        .package(url: "https://github.com/frida/gir2swift.git",     branch: "development"),
-        .package(url: "https://github.com/frida/SwiftGraphene.git", branch: "development"),
-        .package(url: "https://github.com/frida/SwiftAtk.git",      branch: "development"),
-        .package(url: "https://github.com/frida/SwiftGsk.git",      branch: "development"),
+        .package(url: "https://github.com/frida-forks/gir2swift.git",     branch: "development"),
+        .package(url: "https://github.com/frida-forks/SwiftGraphene.git", branch: "development"),
+        .package(url: "https://github.com/frida-forks/SwiftAtk.git",      branch: "development"),
+        .package(url: "https://github.com/frida-forks/SwiftGsk.git",      branch: "development"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     ],
     targets: [
